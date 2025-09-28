@@ -5,12 +5,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 BASE = "http://192.168.100.4:4280/vulnerabilities/brute/"
 SUCCESS_TOKEN = "Welcome to the password protected area"
 
-
 COOKIES = {
     "PHPSESSID": "b8d500bfbe505eddc24afcf99f08ecb8",
     "security": "low",
 }
-
 
 USERS = ["admin", "pablo", "juan", "maria", "alex", "root", "test", "1337", "lauraromero.cm"]
 PASSWORDS = ["password", "letmein", "abc123", "123456", "dvwa", "contraseña", "contrasena", "123", "12345678", "charley"]
