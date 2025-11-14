@@ -1,6 +1,4 @@
-# Archivos de captura de red (muy grandes)
-*.pcap
-*.pcapng
+
 
 # Python
 __pycache__/
